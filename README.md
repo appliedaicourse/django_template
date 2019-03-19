@@ -87,7 +87,7 @@ A simple django template with django, djangorestframework, with docker and travi
     foo@bar:~/project_root_dir$ touch project_name_in_local/.flake8
     ```
 - Let's just commit and push this to github. After this, the travis will run some builds and if it successful, then we did everything correctly.
-     ```Jekyll
+     ```console
     foo@bar:~/project_root_dir$ git add .
     foo@bar:~/project_root_dir$ git commit -m "Added Travis-CI and flake8 configuration"
     foo@bar:~/project_root_dir$ git push origin master
