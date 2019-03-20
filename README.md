@@ -34,7 +34,7 @@ A simple django template with django, djangorestframework, with docker and travi
 - Create a `docker-compose.yml` in the root directory and copy the contents from our repository to your file. One main take away is, we add a service that runs the __Django development server__.  As mentioend previously, you can add different servies to this later if you want to.
     
     ```console
-    foo@bar:~/project_root_dir$ touch docker-compose.
+    foo@bar:~/project_root_dir$ touch docker-compose.yml
     ```
     While copying, you might want to replace the folder names ie., `project_name_in_local` and `project_name_in_docker` under the volumes section in this file. After that, let's build our docker image with the docker-compose configuration. ( No dots at the end of the command)
     ```console
