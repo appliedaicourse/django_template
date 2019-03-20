@@ -24,7 +24,7 @@ A simple django template with django, djangorestframework, with docker and travi
     ```console 
     foo@bar:~/project_root_dir$ mkdir project_name_in_local
     ```
-- Build the docker image. It will run the commands that are specified in `Dockerfile` one by one. Mnake sure you are in the project folder( github folder ) which has the Dockerfile, Readme.md etc.,. ( dot included at the end). If everything is done properly, you can see that the docker is running all the steps mentioned on Dockerfile step by step.
+- Build the docker image. It will run the commands that are specified in `Dockerfile` one by one. Make sure you are in the project folder( github folder ) which has the Dockerfile, Readme.md etc.,. ( dot included at the end). If everything is done properly, you can see that the docker is running all the steps mentioned on Dockerfile step by step.
     ```console
     foo@bar:~/project_root_dir$ docker build .
     ```
